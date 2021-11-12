@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    height: 100%;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+
+}
+
+#speaker-view,
+#zoom-out{
+    color: white;
+    background-color: rgb(88, 87, 87);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+main section{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.user-conainer{
+    width: 13%;
+    height: 105.49px;
+    margin: 5px 3px;
+    position: relative; 
+}
+
+main section img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main section .name{
+    background-color: rgba(111, 111, 114, 0.452);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer{
+    color: white;
+    height: 80px;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#icons-left, 
+#icons-center,
+#icons-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+footer .options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+footer section .fa-angle-up{
+    font-size: 10px;
+}
+
+footer .options .fa-share-from-square{
+    color: green;
+}
+
+#end-conversation{
+    height: 100%;
+    padding: 0 10px;
+    color: red;
+    background-color: rgb(114, 112, 112);
+    display: flex;
+    align-items: center;
+}
+
