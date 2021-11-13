@@ -27,6 +27,12 @@ header{
 
 }
 
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
 #speaker-view,
 #zoom-out{
     color: white;
